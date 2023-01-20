@@ -1,50 +1,47 @@
-let data = JSON.parse(localStorage.getItem("data"));
-
-let container = document.querySelector("#products_data");
-
-append(data)
 
 function redirect() {
   window.location.href = "index.html";
 }
 
+let data = JSON.parse(localStorage.getItem("data")) || [];
+
+let container = document.querySelector("#products_data");
+
+append(data);
+
 function append(data) {
-
   data.forEach(function(el, i) {
-
     let div = document.createElement("div");
-    div.style.border = "1px solid green";
-    div.style.textAlign = "center";
-
+      div.style.border = "2px solid red";
+      div.style.textAlign = "center";
     let image = document.createElement("img");
-    image.src = el.imageLink;
-    image.style.width = "300px";
+      image.src = el.imageLink;
+      image.style.width = "280px";
+      image.style.height = "300px";
     let brand = document.createElement("h2");
-    brand.innerText = el.brand;
+      brand.innerText = el.brand;
     let name = document.createElement("h3");
-    name.innerText = el.name;
+      name.innerText = el.name;
     let price = document.createElement("h3");
-    price.innerText = el.price;
-
+      price.innerText = el.price;
     let btn = document.createElement("button");
-    btn.innerText = "Remove Product";
-    btn.addEventListener("click", function(){
-      remove(i);
+      btn.innerText = "Remove Product";
+      btn.style.marginBottom = "20px";
+      btn.style.cursor = "pointer";
+      btn.addEventListener("click", function(event){
+        event.target.parentNode.remove();
+        removeProduct(i);
     })
-
     div.append(image, name, brand, price, btn);
     container.append(div);
   })
-
 }
 
-function remove(id) {
-  console.log(id);
-
-  data.splice(id,1);
+function removeProduct(i) {
+  data.splice(i,1);
   localStorage.setItem("data", JSON.stringify(data));
-  let newData = JSON.parse(localStorage.getItem("data"));
-  append(newData);
+  window.location.reload();
+  append(data);
 }
 
 
