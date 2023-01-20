@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="carousel"></h1>
+</body>
+</html>
+<script>
+    let carousel_div = document.getElementById('carousel');
+    function carousel(){
+        let images = ['https://wallpapershome.com/images/pages/ico_h/21492.jpg','https://cdn.wallpapersafari.com/88/43/nBPdKr.jpg','https://wallpaperaccess.com/full/37945.jpg']; // Create Array
+        let imgElement = document.createElement('img'); // Create Element with Img
+        imgElement.src = images[0];  // First Image fix
+        carousel_div.append(imgElement);
+        let i = 1;
+        setInterval(function(){
+            if(i === images.length){
+                i = 0;
+            }
+            imgElement.src = images[i];
+            carousel_div.append(imgElement);
+            i++;
+        }, 3000);
+    }
+    carousel();
+</script>
