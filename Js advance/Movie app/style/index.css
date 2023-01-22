@@ -5,13 +5,15 @@
 }
 :root{
     --brand-blue: #141b28;
+    --bgcolor-l1: #1d2942;
+    --bgcolor-l2: #030b17;
     --main-color: #1f80e0;
     --text-color: #a1a3a9;
     --white: #ffffff;
     --font-family: Helvetica, sans-serif;
 }
 body{
-    background-color: var(--brand-blue);
+    /* background-color: var(--brand-blue); */
     text-decoration: none;
 }
 #container{
@@ -23,6 +25,7 @@ body{
     justify-content: space-between;
     position: fixed;
     top: 0;
+    background-color: #141b28;
 }
 .navbar-left{
     display: flex;
@@ -46,7 +49,7 @@ body{
 }  
 .nav-block > li {
     display: inline-block;
-    padding: 10px;
+    padding: 25px 10px;
     cursor: pointer;
 }
 .nav-block > li:nth-child(1){
@@ -80,7 +83,7 @@ body{
     font-weight: 600;
     font-family: var(--font-family);
     color: var(--text-color);
-    background-color: grey;
+    background-color: var(--brand-blue);
     border: none;
     outline: 0;
 }
@@ -116,17 +119,17 @@ body{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #192133;
+    background-color: var(--bgcolor-l1);
     border-radius: 5px;
-    box-shadow: var(--brand-blue) 0px 2px 8px 0px;
-    /* margin-top: 12px; */
+    box-shadow: var(--bgcolor-l1) 0px 2px 3px 0px;
+    margin-top: 20px;
     z-index: 1;
 }
 .nav-dropdown:hover .nav-dropdown-content {
     display: block;
 }
 .nav-dropdown-content > a {
-    color: rgb(255, 255, 255);
+    color: var(--white);
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -135,6 +138,6 @@ body{
     font-family: Helvetica, sans-serif;
 }
 .nav-dropdown-content > a:hover{
-    background-color: red;
+    background-color: var(--bgcolor-l2);
 }
 
