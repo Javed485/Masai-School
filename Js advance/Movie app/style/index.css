@@ -248,6 +248,7 @@ body{
     opacity: 0.9;
     padding-left: 4%;
     text-transform: capitalize;
+    font-family: var(--font-family);
     font-size: 22px;
     font-weight: 500;
 }
@@ -261,6 +262,7 @@ body{
     position: relative;
     width: 92%;
     height: 220px;
+    margin-left: 4%;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -309,6 +311,7 @@ body{
     font-size: 15px;
     font-weight: 500;
     text-transform: capitalize;
+    font-family: var(--font-family);
     margin-top: 60%;
 }
 .des{
@@ -317,6 +320,7 @@ body{
     margin: 5px 0;
     font-weight: 500;
     font-size: 12px;
+    font-family: var(--font-family);
 }
 .watchlist-btn{
     position: relative;
@@ -331,6 +335,7 @@ body{
     cursor: pointer;
     padding: 10px 5px;
     border-radius: 5px;
+    font-family: var(--font-family);
 }
 .watchlist-btn::before{
     content: '';
