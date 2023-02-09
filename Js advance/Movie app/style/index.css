@@ -260,7 +260,6 @@ body{
 .card-container{
     position: relative;
     width: 92%;
-    /* padding-left: 10px; */
     height: 220px;
     display: flex;
     margin: 0 auto;
@@ -340,7 +339,7 @@ body{
     left: -5px;
     height: 35px;
     width: 35px;
-    background-image: url(images/add.png);
+    background-image: url(../image/logo/add.png);
     background-size: cover;
     transform: scale(0.4);
 }
@@ -361,11 +360,11 @@ body{
 }
 .pre-btn{
     left: 0;
-    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+    background-color: transparent;
 }
 .nxt-btn{
     right: 0;
-    background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+    background-color: transparent;
 }
 .pre-btn img,
 .nxt-btn img{
