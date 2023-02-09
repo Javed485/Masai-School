@@ -85,24 +85,13 @@ setInterval(function(){
 }, 3000);
 
 // Video Cards
-const videoCard = [...document.querySelectorAll('.video-card')];
-// videoCard.forEach(item => {
-//     item.addEventListener('mouseover', () =>{
-//         let video = item.children[1];
-//         video.play();
-//     })
-//     item.addEventListener('mouseleave', () =>{
-//         let video = item.children[1];
-//         video.pause();
-//     })
-// })
-
+let videoCard = [...document.querySelectorAll('.video-card')];
 videoCard.forEach(function(item){
-    item.addEventListener('mouseover', () =>{
+    item.addEventListener('mouseover', function(){
         let video = item.children[1];
         video.play();
     })
-    item.addEventListener('mouseleave', () =>{
+    item.addEventListener('mouseleave', function(){
         let video = item.children[1];
         video.pause();
     })
