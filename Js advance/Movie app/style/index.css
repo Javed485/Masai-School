@@ -230,6 +230,7 @@ body{
     border-radius: 5px;
     overflow: hidden;
     background: #030b17;
+    cursor: pointer;
 }
 .video-card-image,
 .card-video{
