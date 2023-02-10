@@ -2,7 +2,7 @@ let hollywoodMovies = [
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda.',
-        image: './image/hollywood/hollywood 1.webp',
+        image: './image/hollywood/hollywood 1.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
@@ -14,13 +14,13 @@ let hollywoodMovies = [
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 3.png',
+        image: './image/hollywood/hollywood 3.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 4.png',
+        image: './image/hollywood/hollywood 4.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
@@ -32,7 +32,7 @@ let hollywoodMovies = [
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 6.png',
+        image: './image/hollywood/hollywood 6.jpeg',
         watchlistBtn: 'add to watchlist'
     },
     {
@@ -44,49 +44,49 @@ let hollywoodMovies = [
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 8.png',
+        image: './image/hollywood/hollywood 8.jpeg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 9.webp',
+        image: './image/hollywood/hollywood 9.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 10.webp',
+        image: './image/hollywood/hollywood 10.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 11.webp',
+        image: './image/hollywood/hollywood 11.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 12.webp',
+        image: './image/hollywood/hollywood 12.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 13.webp',
+        image: './image/hollywood/hollywood 13.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 14.webp',
+        image: './image/hollywood/hollywood 14.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 15.webp',
+        image: './image/hollywood/hollywood 15.jpg',
         watchlistBtn: 'add to watchlist'
     },{
         title: 'aoashi',
@@ -103,49 +103,19 @@ let hollywoodMovies = [
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 18.webp',
+        image: './image/hollywood/hollywood 18.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 19.webp',
+        image: './image/hollywood/hollywood 19.jpg',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
         image: './image/hollywood/hollywood 20.webp',
-        watchlistBtn: 'add to watchlist'
-    },
-    {
-        title: 'aoashi',
-        des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 21.webp',
-        watchlistBtn: 'add to watchlist'
-    },
-    {
-        title: 'aoashi',
-        des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 22.webp',
-        watchlistBtn: 'add to watchlist'
-    },
-    {
-        title: 'aoashi',
-        des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 23.webp',
-        watchlistBtn: 'add to watchlist'
-    },
-    {
-        title: 'aoashi',
-        des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 24.webp',
-        watchlistBtn: 'add to watchlist'
-    },
-    {
-        title: 'aoashi',
-        des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/hollywood/hollywood 25.webp',
         watchlistBtn: 'add to watchlist'
     }
 ];
