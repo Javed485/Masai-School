@@ -111,7 +111,7 @@ let latestShows = [
 
 let latestContainer = document.querySelector('.latest-container');
 
-let createCards = function() {
+let latestShowsCards = function() {
     latestShows.forEach(function(el) {
         let card = document.createElement('div');
         card.className = 'card';
@@ -140,4 +140,4 @@ let createCards = function() {
         latestContainer.append(card);
     });
 }
-createCards();
+latestShowsCards();

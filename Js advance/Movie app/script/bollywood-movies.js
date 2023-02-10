@@ -1,64 +1,64 @@
-let latestShows = [
+let bollywoodMovies = [
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda.',
-        image: './image/recomm/poster 1.png',
+        image: './image/bollywood/bollywood 1.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 2.png',
+        image: './image/bollywood/bollywood 2.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 3.png',
+        image: './image/bollywood/bollywood 3.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 1.png',
+        image: './image/bollywood/bollywood 4.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 1.png',
+        image: './image/bollywood/bollywood 5.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 1.png',
+        image: './image/bollywood/bollywood 6.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 1.png',
+        image: './image/bollywood/bollywood 7.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 12.png',
+        image: './image/bollywood/bollywood 8.webp',
         watchlistBtn: 'add to watchlist'
     },
     {
         title: 'aoashi',
         des: 'Ashito Aoi, a student, and Tatsuya Fukuda, an important coach, change the game of Japanese soccer.',
-        image: './image/recomm/poster 11.png',
+        image: './image/bollywood/bollywood 9.webp',
         watchlistBtn: 'add to watchlist'
     }
 ];
 
-let cardContainer = document.querySelector('.m-container');
+let bollywoodContainer = document.querySelector('.bollywood-container');
 
-let createCards = function() {
-    latestShows.forEach(function(el) {
+let bollywoodCards = function() {
+    bollywoodMovies.forEach(function(el) {
         let card = document.createElement('div');
         card.className = 'card';
 
@@ -83,10 +83,10 @@ let createCards = function() {
 
         cardBody.append(h2, h6, btn);
         card.append(imgElement, cardBody);
-        cardContainer.append(card);
+        bollywoodContainer.append(card);
     });
 }
-createCards();
+bollywoodCards();
 
 
 
