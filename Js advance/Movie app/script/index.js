@@ -97,7 +97,7 @@ videoCard.forEach(function(item){
     })
 })
 
-// card sliders
+// cards sliders
 let cardContainers = [...document.querySelectorAll('.card-container')];
 let preBtns = [...document.querySelectorAll('.pre-btn')];
 let nxtBtns = [...document.querySelectorAll('.nxt-btn')];
@@ -115,5 +115,20 @@ cardContainers.forEach(function(item, i){
     })
 })
 
+// Box Sliders
+// let boxContainers = [...document.querySelectorAll('.chan-container')];
+// let preBtn = [...document.querySelectorAll('.pre-btn')];
+// let nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 
+// boxContainers.forEach(function(item, i){
+//     let containerDimensions = item.getBoundingClientRect();
+//     let containerWidth = containerDimensions.width;
 
+//     nxtBtn[i].addEventListener('click', function() {
+//         item.scrollLeft = item.scrollLeft + containerWidth - 200;
+//     })
+
+//     preBtn[i].addEventListener('click', function() {
+//         item.scrollLeft -= containerWidth + 200;
+//     })
+// })
