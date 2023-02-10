@@ -253,11 +253,21 @@ body{
     font-weight: 500;
     margin-top: 30px;
 }
+.movie_title{
+    color: var(--white);
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: -25px;
+}
 .movies-list{
     width: 100%;
     height: 265px;
     position: relative;
-    margin: -15px 0 20px;
+    margin: -20px 0 20px;
 }
 .card-container{
     position: relative;
