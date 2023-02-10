@@ -55,16 +55,13 @@ let languagesCards = function() {
         let imgElement = document.createElement('img');
         imgElement.src = el.image;
         imgElement.className = 'channel-img';
+        imgElement.style.opacity = '0.7';
 
-        let cardBody = document.createElement('div');
-        cardBody.className = 'card-body';
+        let h3 = document.createElement('h3');
+        h3.innerText = el.title;
+        h3.className = 'centere-name';
 
-        let h2 = document.createElement('h2');
-        h2.innerText = el.title;
-        h2.className = 'language-name';
-
-        cardBody.append(h2);
-        card.append(imgElement, cardBody);
+        card.append(imgElement, h3);
         languageContainer.append(card);
     });
 }

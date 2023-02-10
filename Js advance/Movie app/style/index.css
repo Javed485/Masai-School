@@ -438,3 +438,11 @@ body{
 .kids{
     text-transform: none;
 }
+.centere-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    color: var(--white);
+}
