@@ -21,7 +21,6 @@ body{
 #container{
     width: 100%;
     height: auto;
-    background-color: grey;
     padding: 0px 60px;
     display: flex;
     justify-content: space-between;
@@ -77,28 +76,31 @@ body{
     align-items: center;
     gap: 15px;
 }
-.navbar-right > .search-bar{
-    border-bottom: 1px solid var(--text-color);
-    outline: 0;
-    padding: 5px 0;
-}
-.navbar-right > .search-bar > input{
-    font-size: 16px;
-    font-weight: 600;
-    font-family: var(--font-family);
-    color: var(--text-color);
-    background-color: var(--brand-blue);
+.navbar-right > input{
     border: none;
-    outline: 0;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: var(--text-color);
+    width: 200px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+    position: relative;
+    right: -30px;
 }
-.navbar-right > .search-bar > input:focus{
-    width: 250px;
+.navbar-right > input:focus{
+    width: 300px;
+    border-color: var(--main-color);
 }
-.navbar-right > .search-bar > i{
+.navbar-right > i{
     color: var(--text-color);
     font-size: 14px;
 }
 .navbar-right > .subscribe-btn{
+    height: 30px;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
@@ -108,9 +110,11 @@ body{
     color: var(--white);
     background-color: var(--main-color);
     border: none;
+    outline: none;
     cursor: pointer;
+    margin: 0 10px;
 }
-.navbar-right > .login-btn > a{
+.navbar-right > .login-btn {
     font-size: 16px;
     text-transform: uppercase;
     font-family: var(--font-family);
