@@ -5,8 +5,9 @@
 }
 :root{
     --brand-blue: #141b28;
-    --bgcolor-l1: #1d2942;
+    --bgcolor-l1: #1d2942; 
     --bgcolor-l2: #030b17;
+    --bgcolor-l3: #192133;
     --main-color: #1f80e0;
     --text-color: #909999;
     --text-color-L1: rgba(255, 255, 255, 0.8);
@@ -22,6 +23,7 @@ body{
     width: 100%;
     height: auto;
     padding: 0px 60px;
+    padding-top: 8px;
     display: flex;
     justify-content: space-between;
     background-color: var(--brand-blue);
@@ -127,11 +129,12 @@ body{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: var(--bgcolor-l1);
+    background-color: var(--bgcolor-l3);
     border-radius: 5px;
     box-shadow: var(--bgcolor-l1) 0px 2px 3px 0px;
     margin-top: 20px;
     z-index: 1;
+    transition: .5s;
 }
 .nav-dropdown:hover .nav-dropdown-content {
     display: block;
@@ -152,7 +155,7 @@ body{
 .carousel-container{
     width: 100%;
     height: 450px;
-    padding: 20px 0;
+    padding: 15px 0;
     overflow-x: hidden;
 }
 .carousel{
@@ -449,4 +452,10 @@ body{
     transform: translate(-50%, -50%);
     font-family: var(--font-family);
     color: var(--white);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 50% repeat(2, 1fr);
+    height: 14vw;
+    border: 1px solid red;
 }
