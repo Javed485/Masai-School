@@ -490,3 +490,39 @@ body{
     font-weight: 400;
     font-family: var(--font-family);
 }
+.middle-footer{
+    text-align: center;
+}
+.middle-footer > p,
+.right-footer > p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 600;
+    color: #dadada;
+}
+.middle-footer > a{
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    color: var(--text-color);
+    background-color: #192133;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.middle-footer > a > i{
+    font-size: 23px;
+    padding-top: 8px;
+}
+.middle-footer > a:hover{
+    color: var(--white);
+    background-color: var(--main-color);
+}
+.right-footer > img{
+    width: 45%;
+    margin-top: 15px;
+    display: inline;
+    cursor: pointer;
+}
