@@ -81,7 +81,7 @@ for(let i=0; i<=movies.length; i++){
 };
 
 setInterval(function(){
-    //createSlide();
+    createSlide();
 }, 3000);
 
 // Video Cards
