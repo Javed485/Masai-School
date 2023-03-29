@@ -1,3 +1,9 @@
+let preload = document.getElementById('preloader');
+    window.addEventListener("load", function(){
+        preload.style.display = 'none';
+    });
+
+
 let movies = [
     {
         name: 'aoashi',
